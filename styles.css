@@ -5,11 +5,14 @@
     scroll-behavior: smooth;
 }
 
-
 #wrapper {
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+:root{
+    --bgOrange: #e84949;
 }
 
 .container {
@@ -62,4 +65,34 @@ a {
 .nav-items div:hover {
     transition: 5s;
     font-weight: bold;
+}
+
+.hero-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+}
+
+.faded-text{
+    user-select: none;
+    font-size: 7em;
+    color: rgb(231, 231, 231);
+     
+    bottom: -16%;
+    left: -5%;
+    font-weight: bold;
+    transition: all 3s;
+}
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
