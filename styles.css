@@ -33,6 +33,7 @@
 
 .logo {
     width: 80px;
+    
 }
 
 .logo-container {
@@ -42,7 +43,7 @@
 }
 
 .logo-text {
-    margin-left: -1.2rem;
+    margin-left: -1.7rem;
     font-size: 28px;
 }
 
